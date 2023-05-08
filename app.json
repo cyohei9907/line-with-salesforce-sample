@@ -5,41 +5,28 @@
   "keywords": ["salesforce","line","node","einstein","liveagent"],
   "env": {
       "LINE_CHANNEL_ACCESS_TOKEN": {
-          "description": "LINE - Channel Access Token"
+          "description": "148882456bc64d1b8ee34cffa9da8711"
       },
       "LIVEAGENT_ORGANIZATION_ID": {
-          "description": "Salesforce - Liveagent Chat の組織 ID",
+          "description": "00D0o000001Qqns",
           "required": false
       },
       "LIVEAGENT_POD": {
-         "description": "Salesforce - Liveagent API のエンドポイント(ホストのみ)",
+         "description": "https://d.la1-c2-ukb.salesforceliveagent.com/chat/rest/Visitor/Availability",
          "required": false
       },
       "LIVEAGENT_DEPLOYMENT_ID": {
-          "description": "Salesforce - Liveagent Chat のリリース ID",
+          "description": "5720o000000Pojo",
           "required": false
       },
       "LIVEAGENT_BUTTON_ID": {
-          "description": "Salesforce - Liveagent Chat のボタン ID",
+          "description": "5730o000000Pptp",
           "required": false
       },
       "LIVEAGENT_API_VERSION": {
           "description": "Salesforce - Liveagent Rest API のバージョン",
-          "value": "39",
+          "value": "57",
           "required": false
-      },
-      "EINSTEIN_INTENT_MODEL_ID": {
-         "description": "Einstein Language - Einstein Intent で利用するモデルID。",
-         "required": false
-      },
-      "EINSTEIN_SENTIMENT_MODEL_ID": {
-         "description": "Einstein Language - Einstein Sentiment で利用するモデルID。",
-         "value": "CommunitySentiment",
-         "required": false
-      },
-      "GOOGLE_TRANSLATEAPI_TOKEN": {
-         "description": "Google - Einstein Language を利用する際に Google 翻訳を用いてメッセージの翻訳を行うための Google API Key。翻訳を行わない場合は空欄。",
-         "required": false
       }
   },
   "addons": ["fixie:tricycle","mongolab:sandbox","einstein-vision:starter"]
